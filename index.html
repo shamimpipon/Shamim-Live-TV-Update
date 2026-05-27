@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ROAR TV Channels</title>
+
+<style>
+body{
+    background:#0f172a;
+    font-family:Arial;
+    color:white;
+    margin:0;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    border-radius:15px;
+    padding:15px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+}
+
+.card img{
+    width:120px;
+    height:120px;
+    object-fit:contain;
+    background:white;
+    border-radius:10px;
+    padding:10px;
+}
+
+.channel-name{
+    margin-top:15px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.url-box{
+    margin-top:10px;
+    background:#334155;
+    padding:8px;
+    border-radius:8px;
+    font-size:12px;
+    word-break:break-all;
+}
+
+button{
+    margin-top:10px;
+    padding:10px 15px;
+    border:none;
+    border-radius:10px;
+    background:#22c55e;
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#16a34a;
+}
+</style>
+</head>
+
+<body>
+
+<h1>ROAR TV CHANNELS</h1>
+
+<div class="container">
+
+<div class="card">
+<img src="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Star%20sports%201.png">
+
+<div class="channel-name">
+Star Sports 1
+</div>
+
+<div class="url-box" id="url1">
+https://raw.githubusercontent.com/shamimpipon/ROAR/main/Star%20sports%201.png
+</div>
+
+<button onclick="copyUrl('url1')">
+Copy URL
+</button>
+</div>
+
+<div class="card">
+<img src="https://raw.githubusercontent.com/shamimpipon/ROAR/main/ATN_News.png">
+
+<div class="channel-name">
+ATN News
+</div>
+
+<div class="url-box" id="url2">
+https://raw.githubusercontent.com/shamimpipon/ROAR/main/ATN_News.png
+</div>
+
+<button onclick="copyUrl('url2')">
+Copy URL
+</button>
+</div>
+
+</div>
+
+<script>
+function copyUrl(id){
+    let text=document.getElementById(id).innerText;
+    navigator.clipboard.writeText(text);
+    alert("URL Copied");
+}
+</script>
+
+</body>
+</html>

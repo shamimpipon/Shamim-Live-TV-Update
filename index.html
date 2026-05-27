@@ -33,8 +33,8 @@ box-shadow:0 0 10px rgba(0,0,0,0.3);
 }
 
 img{
-width:120px;
-height:120px;
+width:180px;
+height:180px;
 object-fit:contain;
 background:white;
 padding:10px;
@@ -128,7 +128,7 @@ Copy URL
 </button>
 
 <span class="size">
-${this.width}x${this.height}
+${(file.size / 1024).toFixed(1)} KB
 </span>
 
 </div>

@@ -5,11 +5,17 @@
 <title>ROAR TV</title>
 
 <style>
+
 body{
 background:#111827;
 font-family:Arial;
 color:white;
 padding:20px;
+}
+
+h1{
+text-align:center;
+margin-bottom:30px;
 }
 
 .container{
@@ -23,6 +29,7 @@ background:#1f2937;
 padding:15px;
 border-radius:15px;
 text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,0.3);
 }
 
 img{
@@ -34,15 +41,40 @@ padding:10px;
 border-radius:10px;
 }
 
+h3{
+font-size:15px;
+margin-top:15px;
+word-break:break-word;
+}
+
+.bottom{
+margin-top:12px;
+display:flex;
+justify-content:center;
+align-items:center;
+gap:10px;
+}
+
 button{
-margin-top:10px;
-padding:10px;
+padding:10px 14px;
 border:none;
 border-radius:10px;
 background:#22c55e;
 color:white;
 cursor:pointer;
+font-size:13px;
 }
+
+button:hover{
+background:#16a34a;
+}
+
+.size{
+font-size:13px;
+color:#22c55e;
+font-weight:bold;
+}
+
 </style>
 </head>
 
@@ -69,23 +101,43 @@ document.getElementById("channels");
 
 data.forEach(file=>{
 
-if(file.name.endsWith(".png")
+if(
+file.name.endsWith(".png")
 || file.name.endsWith(".jpg")
 || file.name.endsWith(".jpeg")
-|| file.name.endsWith(".webp")){
+|| file.name.endsWith(".webp")
+){
 
 const card = document.createElement("div");
 card.className = "card";
 
+const img = new Image();
+
+img.onload = function(){
+
 card.innerHTML = `
+
 <img src="${file.download_url}">
 
 <h3>${file.name}</h3>
 
+<div class="bottom">
+
 <button onclick="copyUrl('${file.download_url}')">
 Copy URL
 </button>
+
+<span class="size">
+${this.width}x${this.height}
+</span>
+
+</div>
+
 `;
+
+};
+
+img.src = file.download_url;
 
 container.appendChild(card);
 
@@ -97,7 +149,6 @@ container.appendChild(card);
 
 function copyUrl(url){
 navigator.clipboard.writeText(url);
-alert("URL Copied");
 }
 
 loadImages();

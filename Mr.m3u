@@ -116,9 +116,9 @@ http://cdn.moviemazic.xyz:8083/Feedget/SonyMAX_37/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="MAX 2" tvg-logo=https://raw.githubusercontent.com/shamimpipon/ROAR/main/Set%20Max%202.jpeg"" group-title="",MAX 2
 https://sm-monirul.top/toffee/play/sonymax_2.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="18.& Picture" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/And%20Pictures%20.png" group-title="",18.& Picture
-https://sm-monirul.top/toffee/play/andpicture_hd.m3u8
+http://cdn.moviemazic.xyz:8083/andpictureHD/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Discovery" tvg-logo="" group-title="",Discovery
-http://cdn.moviemazic.xyz:8083/http://cdn.moviemazic.xyz:8083/Feedget/Discovery/index.m3u8
+http://cdn.moviemazic.xyz:8083/Feedget/Discovery/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Zoom" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/ZOOM.png" group-title="",Zoom
 https://d2esfk1pb9cdob.cloudfront.net/master.m3u8
 

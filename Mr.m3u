@@ -45,8 +45,21 @@ http://cdn.moviemazic.xyz:8083/Feedget/Star-Select-Hd-2/index.m3u8
 https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/Zee%20Bangla%20hd.jpg" group-title="Indian Bangla",Zee Bangla
 https://yupptvcatchupire.yuppcdn.net/preview/zeebangla/2500.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Zee Bangla Cinema" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Zee%20Bangla%20Cinema%20.png" group-title="",Zee Bangla Cinema
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Colors Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/colors-bangla-hd-in.png" group-title="Indian Bangla",Colors Bangla
+http://cdn.moviemazic.xyz:8083/colors-bangla/index.m3u8?token=db806d9d64ed3d1213538040e45741bcdc936bec-820d1638b7ba826b23fcea63c376f039-1781983112-1781972312
+
 #EXTINF:-1 tvg-id="ext" tvg-name="Sony Aath" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-aath-in.png" group-title="Indian Bangla",Sony Aath
 http://cdn.moviemazic.xyz:8083/Feedget/SonyAath_7/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="AAKASH AATH" tvg-logo="http://tv.digitalview.live:8080/images/COkEO-FWL6Un57bQno1oDDZsiBeWCSjxPVZv0hLJ3dQmW5aAA-8mIeuB88P0SUdrjBBSFEHQ2ZXiddKtVfnJCQ.png" group-title="",AAKASH AATH
+https://cdn-4.pishow.tv/live/969/master.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Amar Bangla" tvg-logo="https://i.ibb.co/CPmLfGs/Amar-Bangla.png" group-title="",Amar Bangla
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Enter 10 Bangla" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Enter%2010%20Bangla.jpeg" group-title="",Enter 10 Bangla
+https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="G TV" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/gtv-hd-bd.png" group-title="IPTV",G TV
 http://cdn.moviemazic.xyz:8083/GaziTV/index.m3u8
@@ -70,6 +83,10 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ATN Bangla" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/ATN%20Bangla.png" group-title="BD NEWS",ATN Bangla
 https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="ATN Music" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/ATN%20Music.png" group-title="",ATN Music
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Ekushey TV" tvg-logo="https://i.postimg.cc/C15wr1RW/Ekushey-Television-Logo-svg.png" group-title="",Ekushey TV
+https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Channel i" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Channel%20I.png" group-title="BD NEWS",Channel i
 https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NTV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/NTV.png" group-title="BD NEWS",NTV
@@ -84,6 +101,43 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Channel 9" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Channel9_bd.svg/500px-Channel9_bd.svg.png" group-title="BD NEWS",Channel 9
 https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8
+
+
+
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Star Gold" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Gold.png" group-title="Hindi Movie",Star Gold
+http://cdn.moviemazic.xyz:8083/Star-Gold/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="B4U music" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/B4U%20Music.png" group-title="",B4U music
+https://sm-monirultop/toffee/play/b4u_music.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Zee Cinema HD" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/zee-cinema-hd-in.png" group-title="",Zee Cinema HD
+http://cdn.moviemazic.xyz:8083/Feedget/ZeeCinemaHD_38/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="MAX" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Sony%20Max.png" group-title="",MAX
+http://cdn.moviemazic.xyz:8083/Feedget/SonyMAX_37/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="MAX 2" tvg-logo=https://raw.githubusercontent.com/shamimpipon/ROAR/main/Set%20Max%202.jpeg"" group-title="",MAX 2
+https://sm-monirul.top/toffee/play/sonymax_2.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="18.& Picture" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/And%20Pictures%20.png" group-title="",18.& Picture
+https://sm-monirul.top/toffee/play/andpicture_hd.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Discovery" tvg-logo="" group-title="",Discovery
+http://cdn.moviemazic.xyz:8083/http://cdn.moviemazic.xyz:8083/Feedget/Discovery/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="Zoom" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/ZOOM.png" group-title="",Zoom
+https://d2esfk1pb9cdob.cloudfront.net/master.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Sony Pix HD (1080p) [Geo-blocked]" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="",Sony Pix HD (1080p) [Geo-blocked]
+http://cdn.moviemazic.xyz:8083/Feedget/SonyPIXHD/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Pogo" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/POGO.jpeg" group-title="",Pogo
+http://cdn.moviemazic.xyz:8083/Feedget/POGO_5/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Star Movies HD" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Movies.png" group-title="",Star Movies HD
+http://cdn.moviemazic.xyz:8083/Feedget/Star-Movies/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Nat Geo HD" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/National%20Geographic%20Channel.png" group-title="",Nat Geo HD
+http://cdn.moviemazic.xyz:8083/Feedget/National-Geography/index.m3u8
+
+#EXTINF:-1 tvg-id="ext" tvg-name="Animal Planet" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Animal%20Planet.png" group-title="",Animal Planet
+http://cdn.moviemazic.xyz:8083/Feedget/AnimalPlanetHD_12/index.m3u8
+
+
 
 
 

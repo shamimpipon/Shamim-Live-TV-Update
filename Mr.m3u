@@ -136,6 +136,8 @@ http://cdn.moviemazic.xyz:8083/Feedget/National-Geography/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Animal Planet" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Animal%20Planet.png" group-title="",Animal Planet
 http://cdn.moviemazic.xyz:8083/Feedget/AnimalPlanetHD_12/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="S SPORTS" tvg-logo="" group-title="Sports",S SPORTS
+https://slive.mana2.my/SukanRtm/index.m3u8
 
 
 

@@ -12,7 +12,9 @@ https://cdn-tt.pages.dev/ch5.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="112 T SPORTS" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/t-sports-hd-bd.png" group-title="Sports",tsports
 http://cdn.moviemazic.xyz:8083/TSportsHD/index.m3u8
-#EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",1002
+#EXTINF:-1 tvg-id="ext" tvg-name="Uneit8 Sports" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/IMG_20260612_084720.jpg" group-title="Sports",1005
+http://cdn.moviemazic.xyz:8083/unite8-sports-2/index.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="112 Somay News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuaoe32xECUYsRui0O-n8NJ8TiBgbsR_LoVQ&s" group-title="BD NEWS",Somoy 
 http://cdn.moviemazic.xyz:8083/SomoyTv/index.m3u8
 #EXTINF:-1 tvg-id="ext" tvg-name="P SPORTS" tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/refs/heads/main/ptv%20sports.png" group-title="Sports",P SPORTS
 http://cdn.moviemazic.xyz:8083/Feedget/ptv_pk/index.m3u8
@@ -136,8 +138,7 @@ http://cdn.moviemazic.xyz:8083/Feedget/National-Geography/index.m3u8
 
 #EXTINF:-1 tvg-id="ext" tvg-name="Animal Planet" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Animal%20Planet.png" group-title="",Animal Planet
 http://cdn.moviemazic.xyz:8083/Feedget/AnimalPlanetHD_12/index.m3u8
-#EXTINF:-1,Sukan RTM
-https://slive.mana2.my/SukanRtm/index.m3u8
+
 
 
 

@@ -20,9 +20,21 @@ margin-bottom:20px;
 font-size:30px;
 }
 
+#searchBox{
+width:100%;
+padding:12px 15px;
+font-size:16px;
+border:none;
+border-radius:20px;
+outline:none;
+margin-bottom:20px;
+box-sizing:border-box;
+background:#fff;
+}
+
 .container{
 display:grid;
-grid-template-columns:repeat(3,1fr);
+grid-template-columns:repeat(6,1fr);
 gap:14px;
 }
 
@@ -68,7 +80,7 @@ background:#22c55e;
 color:white;
 font-size:13px;
 cursor:pointer;
-transition:0.3s;
+transition:.3s;
 }
 
 button:hover{
@@ -106,6 +118,12 @@ height:150px;
 
 <h1>Shamim Live Tv Logo</h1>
 
+<input
+id="searchBox"
+type="text"
+placeholder="🔍 Search Logo..."
+onkeyup="searchImages()">
+
 <div class="container" id="channels"></div>
 
 <script>
@@ -114,43 +132,46 @@ const repo = "shamimpipon/ROAR";
 
 async function loadImages(){
 
-const api =
-`https://api.github.com/repos/${repo}/contents`;
+const api = `https://api.github.com/repos/${repo}/contents`;
 
 const response = await fetch(api);
 const data = await response.json();
 
-const container =
-document.getElementById("channels");
+const container = document.getElementById("channels");
+
+container.innerHTML="";
 
 data.forEach(file=>{
 
 if(
-file.name.endsWith(".png")
-|| file.name.endsWith(".jpg")
-|| file.name.endsWith(".jpeg")
-|| file.name.endsWith(".webp")
+file.name.endsWith(".png") ||
+file.name.endsWith(".jpg") ||
+file.name.endsWith(".jpeg") ||
+file.name.endsWith(".webp")
 ){
 
 const card = document.createElement("div");
-card.className = "card";
 
-card.innerHTML = `
+card.className="card";
+
+card.setAttribute("data-name",file.name.toLowerCase());
+
+card.innerHTML=`
 
 <div class="image-box">
 
-<img src="${file.download_url}">
+<img src="${file.download_url}" alt="${file.name}">
 
 </div>
 
 <div class="bottom">
 
-<button onclick="copyUrl('${file.download_url}', this)">
+<button onclick="copyUrl('${file.download_url}',this)">
 Copy URL
 </button>
 
 <span class="size">
-${(file.size / 1024).toFixed(1)} KB
+${(file.size/1024).toFixed(1)} KB
 </span>
 
 </div>
@@ -165,23 +186,43 @@ container.appendChild(card);
 
 }
 
-function copyUrl(url, btn){
+function searchImages(){
+
+const input=document.getElementById("searchBox").value.toLowerCase();
+
+const cards=document.querySelectorAll(".card");
+
+cards.forEach(card=>{
+
+const name=card.getAttribute("data-name");
+
+if(name.includes(input)){
+card.style.display="";
+}else{
+card.style.display="none";
+}
+
+});
+
+}
+
+function copyUrl(url,btn){
 
 navigator.clipboard.writeText(url);
 
-const oldText = btn.innerText;
+const oldText=btn.innerText;
 
-btn.innerText = "✓ Copied";
+btn.innerText="✓ Copied";
 
-btn.style.background = "#16a34a";
+btn.style.background="#16a34a";
 
-setTimeout(() => {
+setTimeout(()=>{
 
-btn.innerText = "Copy URL";
+btn.innerText="Copy URL";
 
-btn.style.background = "#22c55e";
+btn.style.background="#22c55e";
 
-}, 2000);
+},2000);
 
 }
 
